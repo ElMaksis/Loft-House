@@ -1,5 +1,5 @@
 .header {
-    min-height: 840px;
+
     background: linear-gradient(180deg, #242B33 11.98%,
             rgba(45, 52, 60, 0.38) 51.04%,
             #242B33 92.19%),
@@ -10,10 +10,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    // height: 100%;
+    min-height: 840px;
 }
 
-.top {
+.top-part {
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -36,10 +37,31 @@
     text-decoration: none;
 }
 
-.central {}
+.central-part {
+    text-align: center;
+    color: #D4C17F;
+    width: 550px;
+    align-self: center;
+}
 
-.bottom {}
+.central-part__title {
+    font-family: $font-accent;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 80px;
+}
 
-.adress {}
+.bottom-part {
+    display: flex;
+    justify-content: center;
+    gap: 135px;
+    height: 20px;
+    line-height: 20px;
+}
 
-.number {}
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

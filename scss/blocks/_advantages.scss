@@ -1,0 +1,25 @@
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 120px auto;
+
+}
+
+.advantages__item {
+    width: 25%;
+    text-align: center;
+}
+
+.advantages__img {
+    padding-bottom: 50px;
+    width: 80px;
+}
+
+.advantages__text {
+    font-family: $font-secondary;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+}
